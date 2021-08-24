@@ -1,0 +1,120 @@
+PS C:\Users\nicki> mkdir SoftDev1
+
+
+    Directory: C:\Users\nicki
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/24/2021  12:41 PM                SoftDev1
+
+
+PS C:\Users\nicki> cd .\SoftDev1\
+PS C:\Users\nicki\SoftDev1> mkdir Unit01
+
+
+    Directory: C:\Users\nicki\SoftDev1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/24/2021  12:41 PM                Unit01
+
+
+PS C:\Users\nicki\SoftDev1> cd .\Unit01\
+PS C:\Users\nicki\SoftDev1\Unit01> notepad file01.txt
+PS C:\Users\nicki\SoftDev1\Unit01> cp file01.txt file02.txt
+PS C:\Users\nicki\SoftDev1\Unit01> ls
+
+
+    Directory: C:\Users\nicki\SoftDev1\Unit01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         8/24/2021  12:42 PM             12 file01.txt
+-a----         8/24/2021  12:42 PM             12 file02.txt
+
+
+PS C:\Users\nicki\SoftDev1\Unit01> mkdir Assignment01
+
+
+    Directory: C:\Users\nicki\SoftDev1\Unit01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/24/2021  12:44 PM                Assignment01
+
+
+PS C:\Users\nicki\SoftDev1\Unit01> cd .\Assignment01\
+PS C:\Users\nicki\SoftDev1\Unit01\Assignment01> mkdir Alex
+
+
+    Directory: C:\Users\nicki\SoftDev1\Unit01\Assignment01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/24/2021  12:45 PM                Alex
+
+
+PS C:\Users\nicki\SoftDev1\Unit01\Assignment01> ls
+
+
+    Directory: C:\Users\nicki\SoftDev1\Unit01\Assignment01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/24/2021  12:45 PM                Alex
+
+
+PS C:\Users\nicki\SoftDev1\Unit01\Assignment01> cd ..
+PS C:\Users\nicki\SoftDev1\Unit01> ls
+
+
+    Directory: C:\Users\nicki\SoftDev1\Unit01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/24/2021  12:45 PM                Assignment01
+-a----         8/24/2021  12:42 PM             12 file01.txt
+-a----         8/24/2021  12:42 PM             12 file02.txt
+
+
+PS C:\Users\nicki\SoftDev1\Unit01> mv .\file02.txt C:\Users\nicki\SoftDev1\Unit01\Assignment01\Alex\
+PS C:\Users\nicki\SoftDev1\Unit01> cd .\Assignment01\Alex\
+PS C:\Users\nicki\SoftDev1\Unit01\Assignment01\Alex> ls
+
+
+    Directory: C:\Users\nicki\SoftDev1\Unit01\Assignment01\Alex
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         8/24/2021  12:42 PM             12 file02.txt
+
+
+PS C:\Users\nicki\SoftDev1\Unit01\Assignment01\Alex> notepad file02.txt
+PS C:\Users\nicki\SoftDev1\Unit01\Assignment01\Alex> cd ..
+PS C:\Users\nicki\SoftDev1\Unit01\Assignment01> cd ..
+PS C:\Users\nicki\SoftDev1\Unit01> rm .\Assignment01\
+
+Confirm
+The item at C:\Users\nicki\SoftDev1\Unit01\Assignment01\ has children and the Recurse parameter was not specified. If you continue, all
+children will be removed with the item. Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): Y
+PS C:\Users\nicki\SoftDev1\Unit01> ls
+
+
+    Directory: C:\Users\nicki\SoftDev1\Unit01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         8/24/2021  12:42 PM             12 file01.txt
+
+
+PS C:\Users\nicki\SoftDev1\Unit01>
